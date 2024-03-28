@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  dllmain.cpp
+  SampleDll.cpp
+     Creating library C:\Users\shrey\source\repos\PassFunc\x64\Release\SampleDll.lib and object C:\Users\shrey\source\repos\PassFunc\x64\Release\SampleDll.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 122 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  SampleDll.vcxproj -> C:\Users\shrey\source\repos\PassFunc\x64\Release\SampleDll.dll
