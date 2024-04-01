@@ -24,10 +24,7 @@ namespace ConsoleApp
         {
             try
             {
-                var ret = NativeMethods.NativeMethods.GetSecret();
-                Console.WriteLine(Marshal.PtrToStringAnsi(ret));
-
-                NativeMethods.NativeMethods.PassFunc(interopFunc);
+                NativeMethods.NativeMethods.PassFunc_x64(interopFunc);
 
                 Console.ReadLine();
             }catch (Exception ex)

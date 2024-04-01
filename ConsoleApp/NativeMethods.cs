@@ -10,12 +10,13 @@ namespace NativeMethods
     internal class NativeMethods
     {
 
-        [DllImport("SampleDll.dll")]
-        public extern static IntPtr GetSecret();
-
         public delegate int CallbackDelegate(IntPtr str);
 
-        [DllImport("SampleDll.dll", CallingConvention = CallingConvention.StdCall)]
-        public extern static void PassFunc(CallbackDelegate callbackDelegate);
+        [DllImport("SampleDll.x64.dll", EntryPoint = "PassFunc", CallingConvention = CallingConvention.StdCall)]
+        public extern static void PassFunc_x64(CallbackDelegate callbackDelegate);
+
+
+        [DllImport("SampleDll.x86.dll", EntryPoint = "PassFunc", CallingConvention = CallingConvention.StdCall)]
+        public extern static void PassFunc_x86(CallbackDelegate callbackDelegate);
     }
 }

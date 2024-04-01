@@ -2,5 +2,5 @@
   dllmain.cpp
   SampleDll.cpp
   Generating Code...
-     Creating library C:\Users\shrey\source\repos\PassFunc\Debug\SampleDll.lib and object C:\Users\shrey\source\repos\PassFunc\Debug\SampleDll.exp
-  SampleDll.vcxproj -> C:\Users\shrey\source\repos\PassFunc\Debug\SampleDll.dll
+     Creating library C:\Users\shrey\source\repos\PassFunc\Debug\SampleDll.x86.lib and object C:\Users\shrey\source\repos\PassFunc\Debug\SampleDll.x86.exp
+  SampleDll.vcxproj -> C:\Users\shrey\source\repos\PassFunc\Debug\SampleDll.x86.dll
