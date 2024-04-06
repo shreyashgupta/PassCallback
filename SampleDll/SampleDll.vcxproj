@@ -77,7 +77,7 @@
     <TargetName>SampleDll.x64</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <TargetName>SampleDll.x64</TargetName>
+    <TargetName>SampleDll.x86</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <TargetName>SampleDll</TargetName>
